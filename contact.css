@@ -1,0 +1,77 @@
+.contactPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 5%;
+}
+
+.contactPage h1 {
+    font-size: 42px;
+    margin-bottom: 1%;
+    color: #1fbcff;
+}
+
+.subtitle {
+    color: #b0cfff;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.contactContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.contactInfo {
+    flex: 1;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.infoCard {
+    background: linear-gradient(145deg, #020025, #050050);
+    border: 1px solid #1fbcff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(31,188,255,0.3);
+}
+
+.infoCard h2 {
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: #1fbcff;
+}
+
+.infoCard p {
+    color: white;
+    margin: 4px 0;
+    background-color: transparent;
+}
+
+
+.mapContainer {
+    flex: 1;
+    min-width: 320px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #1fbcff;
+    box-shadow: 0 0 12px rgba(31,188,255,0.4);
+}
+
+.mapContainer iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+@media (max-width: 900px) {
+    .contactContainer {
+        flex-direction: column;
+    }
+}

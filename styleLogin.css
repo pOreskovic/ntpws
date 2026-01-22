@@ -1,0 +1,112 @@
+*{
+    background-color: #020025;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 20px;
+}
+
+main h1{
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #020025;
+    flex-direction: column;
+    border-radius: 35px;
+    box-shadow: 0 0 7px #ffffff;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border: 1px solid white;
+    gap: 5px;
+}
+
+form hr{
+    color: white;
+    width: 83%;
+}
+
+form h3{
+    color:#1fbcff;
+    font-weight: bold;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 4px;
+}
+
+form input{
+    margin-bottom: 20px;
+    width: 80%;
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 0 3px #ffffff;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    color: white;
+}
+
+form button{
+    width: 80%;
+    padding: 10px 30px;
+    margin-top: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 3px solid #1fbcff;
+    font-weight: bold;
+    box-shadow: 0 0 3px #1fbcff;
+    font-size: large;
+    background-color: #020025;
+    color: white;
+}
+
+form button:hover{
+    border-color: #1fbcff;
+    color: #1fbcff;
+    box-shadow: 0px 0px 8px #1fbcff;
+    border: 3px solid #1fbcff;
+    cursor: pointer;
+}
+
+form h5{
+    margin: 0;
+    color: rgb(255, 53, 53);
+}
+
+form a{
+    text-decoration: none;
+    color: white;
+    background-color: #020025;
+    box-shadow: 0px 0px 3px black;
+    border: 3px solid #1fbcff;
+    border-radius: 10px;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+form a:hover{
+    border-color: #1fbcff;
+    color: #1fbcff;
+    box-shadow: 0px 0px 8px #1fbcff;
+    border: 3px solid #1fbcff;
+    cursor: pointer;
+}     
+
+form p{
+    width: 80%;
+    font-size: smaller;
+}

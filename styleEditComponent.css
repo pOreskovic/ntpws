@@ -1,0 +1,113 @@
+.editContainer {
+    width: 40%;
+    margin: 4% auto;
+    background: linear-gradient(145deg, #020025, #040050);
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    color: white;
+    margin-top: 1%;
+    border: 1px solid white;
+}
+
+.editContainer h1 {
+    text-align: center;
+    color: #1fbcff;
+    margin-bottom: 2%;
+    background-color: transparent;
+}
+
+hr{
+    width: 50%;
+    border: 1px solid #1fbcff;
+    margin-bottom: 4%;
+}
+
+.editForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+}
+
+.editForm input,.editForm textarea {
+    width: 85%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #020025;
+    border: 2px solid #1fbcff;
+    color: white;
+}
+
+.editForm input:focus,.editForm textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px #1fbcff;
+}
+
+.formActions {
+    display: flex;
+    width: 85%;
+    gap: 15px;
+    background-color: transparent;
+}
+
+.formActions button,.cancelBtn {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 30px;
+    margin-top: 2%;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: medium;
+}
+
+.formActions button {
+    background-color: #020025;
+    border: 3px solid #1fbcff;
+    box-shadow: 0 0 3px #1fbcff;
+}
+
+.formActions button:hover {
+    color: #1fbcff;
+    box-shadow: 0px 0px 8px #1fbcff;
+    border: 3px solid #1fbcff;
+    cursor: pointer;
+}
+
+.cancelBtn {
+    border: 3px solid red;
+    border-color: red;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 3px red;
+    cursor: pointer;
+}
+
+.cancelBtn:hover {
+    color: red;
+    box-shadow: 0px 0px 8px red;
+    border: 3px solid red;
+    cursor: pointer;
+}
+
+.success {
+    text-align: center;
+    color: #16ac1e;
+    margin-bottom: 2%;
+    background-color: transparent;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.gpuInput,.cpuInput,.ramInput,.psuInput,.motherboardsInput,.casesInput,.storageInput,.coolingInput,.commonElement,.pcInput {
+    display: none;
+}
+
+h5{
+    width: 85%;
+    background-color: transparent;
+    margin: 0.5%;
+}
+

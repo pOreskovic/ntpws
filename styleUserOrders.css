@@ -1,0 +1,31 @@
+h1{
+    border: none;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.ordersContainer {
+    width: 50%;
+    margin: auto;
+    margin-top: 3%;
+    color: white;
+}
+
+.orderCard {
+    border: 1px solid #1fbcff;
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 8px #1fbcff;
+}
+
+.orderCard p{
+    display: block;
+}
+
+.orderItems {
+    margin-top: 10px;
+    padding-left: 10px;
+    border-left: 2px solid #1fbcff;
+}

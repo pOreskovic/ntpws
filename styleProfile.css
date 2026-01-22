@@ -1,0 +1,208 @@
+h1{
+    margin: auto;
+    margin-top: 1%;
+    width: 40%;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #1fbcff;
+    color: white;
+}
+
+h2{
+    color: #1fbcff;
+}
+
+h5{
+    width: 100%;
+    text-align: center;
+}
+
+
+.sideNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+    width: 100%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+
+.sideNavButton{
+    text-decoration: none;
+    width: 12%;
+    padding: 10px;
+    background-color: #020025;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 1px 1px #ffffff;
+    border-radius: 8px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sideNavButton:hover{
+    color: #1fbcff;
+    border: 1px solid #1fbcff;
+    box-shadow: 0 0 1px 1px #1fbcff;
+}
+
+.selectedSideNavButton{
+    width: 12%;
+    padding: 10px;
+    background-color: #020025;
+    border: 3px solid #1fbcff;
+    box-shadow: 0 0 1px 1px #1fbcff;
+    border-radius: 8px;
+    color: #1fbcff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.dashboard{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #020025;
+    flex-direction: column;
+    border-radius: 35px;
+    box-shadow: 0 0 7px #1fbcff;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border: 1px solid #1fbcff;
+    gap: 5px;
+    color: white;
+    margin-top: 2%;
+}
+
+.dashboard h1{
+    text-align: center;
+}
+
+.userInfoForm{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 90%;
+}
+
+.userInfoForm hr{
+    border: 1px solid #1fbcff;
+}
+
+.userInfoForm label{
+    text-align: left;
+    width: 72%;
+    margin-bottom: 1%;
+}
+
+.userInfoForm p{
+    margin-bottom: 3%;
+}
+
+.userInfoForm input{
+    width: 70%;
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 0 3px #ffffff;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    color: white;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.userInfoForm input:focus{
+    border: 1px solid;
+    border-color: #1fbcff;
+    box-shadow: 0 0 3px #1fbcff;
+    outline: none;
+}
+
+.userInfoForm div{
+    margin-bottom: 5%;
+}
+
+.userInfoForm button{
+    width: 10%;
+    text-decoration: none;
+    color: white;
+    background-color: #020025;
+    box-shadow: 0px 0px 3px black;
+    border: 3px solid #1fbcff;
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.userInfoForm button:hover{
+    border-color: #1fbcff;
+    color: #1fbcff;
+    box-shadow: 0px 0px 8px #1fbcff;
+    border: 3px solid #1fbcff;
+    cursor: pointer;
+}     
+
+.infoContainer{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+#errorMessage{
+    color: rgb(226, 37, 37);
+}
+
+#deleteAccountForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#deleteAccountForm h5{
+    font-size: larger;
+}
+
+.usrpass{
+    width: 40%;
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 0 3px #ffffff;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    color: white;
+}
+
+#deleteProfileButton{
+    width: 40%;
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 3px solid #1fbcff;
+    font-weight: bold;
+    box-shadow: 0 0 3px #1fbcff;
+    background-color: #020025;
+    color: white;
+}
+
+#deleteProfileButton:hover{
+    border-color: #1fbcff;
+    color: #1fbcff;
+    box-shadow: 0px 0px 8px #1fbcff;
+    border: 3px solid #1fbcff;
+    cursor: pointer;
+}
+

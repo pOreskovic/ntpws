@@ -1,0 +1,123 @@
+.pcBuildsH1{
+    color: white;
+    width: 100%;
+    text-align: center;
+    
+}
+
+main{
+    margin: auto;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    align-items: stretch;
+}
+
+.componentCard{
+    width: 20%;
+    background-color: #020025;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(31,188,255,0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+    color: white;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.componentCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(31,188,255,0.4);
+}
+
+.componentCard img{
+    width: 100%;
+    border: 2px solid #020025;
+    box-shadow: 0 0 2px #000000;
+    border-radius: 25px;
+    height: 50%;
+}
+
+.componentCard button{
+    width: 75%;
+    padding: 10px 30px;
+    margin-top: 5%;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 3px solid #1fbcff;
+    font-weight: bold;
+    box-shadow: 0 0 3px #1fbcff;
+    background-color: #020025;
+    color: white;
+}
+
+.componentCard button:hover{
+    border-color: #1fbcff;
+    color: #1fbcff;
+    box-shadow: 0px 0px 8px #1fbcff;
+    border: 3px solid #1fbcff;
+    cursor: pointer;
+}
+
+.componentCard button:nth-of-type(2){
+    width: 70%;
+    padding-right: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.componentCard button img{
+    width: 60%;
+    border-radius: 0px;
+    height: 60%;
+}
+
+.actionButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Detail Component View*/
+
+.extraNavBar{
+    width: 100%;
+    box-shadow: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1%;
+}
+
+.extraNavBar img{
+    width: 2%;
+}
+
+.extraNavBar img:nth-of-type(1){
+    width: 4%;
+    border-radius: 30px;
+}
+
+.extraNavBar img:nth-of-type(1):hover{
+    box-shadow: 0 0 15px #1fbcff;
+    cursor: pointer;
+}
+
+.extraNavBar a{
+    color: #1fbcff;
+}
+
+.extraNavBar a:hover{
+    text-shadow: 0 0 7px #1fbcff;
+}
